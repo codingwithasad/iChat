@@ -5,7 +5,7 @@
     { "src": "index.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/socket", "dest": "/index.js", "protocols": ["websocket"] },
+    { "src": "/socket", "dest": "/index.js" },
     { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
