@@ -11,6 +11,11 @@
     {
       "src": "/(.*)",
       "dest": "/index.js"
+    },
+    {
+      "src": "/socket",
+      "dest": "/index.js",
+      "protocols": ["websocket"]
     }
   ]
 }
